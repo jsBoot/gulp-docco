@@ -22,7 +22,7 @@ var docco = require("gulp-docco");
 
 gulp.src("./src/*.js")
   .pipe(docco())
-  .dest('./documentation-output')
+  .pipe(gulp.dest('./documentation-output'))
 ```
 
 That's it.
@@ -38,7 +38,7 @@ var docco = require("gulp-docco");
 
 gulp.src("./src/*.js")
   .pipe(docco(options))
-  .dest('./documentation-output')
+  .pipe(gulp.dest('./documentation-output'))
 ```
 
 Mainly of interest are the various embedded layouts (parallel, linear, classic), and custom template support.
