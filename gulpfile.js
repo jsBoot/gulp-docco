@@ -34,7 +34,7 @@
 
   gulp.task('gulco-classic', function() {
     gulp.src([
-      './test/fixtures/docco.litcoffee'
+      './test/**/*.litcoffee'
     ])
     .pipe(gulco({layout: 'classic'}))
     .pipe(gulp.dest('./doc/docco-classic'));
@@ -42,7 +42,7 @@
 
   gulp.task('gulco-linear', function() {
     gulp.src([
-      './test/fixtures/docco.litcoffee'
+      './test/**/*.litcoffee'
     ])
     .pipe(gulco({layout: 'linear'}))
     .pipe(gulp.dest('./doc/docco-linear'));
@@ -50,7 +50,7 @@
 
   gulp.task('gulco-parallel', function() {
     gulp.src([
-      './test/fixtures/docco.litcoffee'
+      './test/**/*.litcoffee'
     ])
     .pipe(gulco({layout: 'parallel'}))
     .pipe(gulp.dest('./doc/docco-parallel'));
