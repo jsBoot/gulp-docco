@@ -55,6 +55,7 @@
         .pipe(through2.obj(function(f, e, n){
           // Template hile itself? Process it
           if(f.path == config.template){
+          if(f.path == path.resolve(config.template)){
             config.template = _.template(f.contents.toString('utf8'));
             n();
             return;
