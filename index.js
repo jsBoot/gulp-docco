@@ -54,7 +54,7 @@
       vfs.src(templateReady)
         .pipe(through2.obj(function(f, e, n){
           // Template hile itself? Process it
-          if(f.path == path.resolve(config.template)){
+          if(typeof config.template == 'string' && f.path == path.resolve(config.template)){
             config.template = _.template(f.contents.toString('utf8'));
             n();
             return;
