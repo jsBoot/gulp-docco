@@ -33,7 +33,7 @@
   "dependencies": {
     "through2": "~0.4.1",
     "gulp-util": "~2.2.14",
-    "vinyl-fs": "0.0.2",
+    "vinyl-fs": "~0.1.2",
     "docco": "~0.6.3",
     "underscore": "~1.5.2",
     "marked": "~0.3.1"
