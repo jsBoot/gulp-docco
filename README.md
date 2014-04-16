@@ -1,13 +1,17 @@
-# gulp-docco (a.k.a "Gulco citron")
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+gulp-docco (a.k.a "Gulco citron")
+=============
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url] [![Code Climate][codeclimate-image]][codeclimate-url]
 
 > docco plugin for [gulp](https://github.com/wearefractal/gulp)
 
-## WARNING
+WARNING
+-------------
 
 This is an early release - if you find bugs, please say so.
 
-## TL;DR
+TL;DR
+-------------
 
 Install `gulp-docco` as a development dependency:
 
@@ -62,3 +66,6 @@ We bypass some of docco internals in order to prevent it from manipulating files
 
 [depstat-url]: https://david-dm.org/jsBoot/gulp-docco
 [depstat-image]: https://david-dm.org/jsBoot/gulp-docco.png
+
+[codeclimate-url]: https://codeclimate.com/github/jsBoot/gulp-docco.js
+[codeclimate-image]: https://codeclimate.com/github/jsBoot/gulp-docco.png
