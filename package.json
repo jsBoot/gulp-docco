@@ -1,6 +1,6 @@
 {
   "name": "gulp-docco",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A docco plugin for Gulp",
   "keywords": [
     "gulpplugin",
@@ -58,5 +58,4 @@
     "npm": ">=1.0.0"
   },
   "private": false
-
 }
